@@ -61,7 +61,7 @@
   -webkit-filter: blur(0.2rem);
 }
 .zero {
-  opacity: 0.75;
+  opacity: 0.5;
 }
 /* Position Helpers */
 .class-gld .gauge, .class-pld .gauge, .class-mrd .gauge,

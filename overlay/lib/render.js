@@ -196,9 +196,12 @@
         else
           el.innerHTML = val
       }
-      if(val == 0 || val === '0%' || val === '---') {
+      if(val == 0
+      || val === '0%'
+      || val === '---'
+      || typeof val === 'number' && isNaN(val))
         el.classList.add('zero')
-      }
+
       return el
     }
 

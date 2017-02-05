@@ -75,6 +75,8 @@ try {
       })
     })
 
+    $map('.version', _ => _.textContent = VERSION)
+
     $map('svg', _ => {
       _.style.width = parseInt(_.getAttribute('width')) / 16 + 'rem'
       _.style.height = parseInt(_.getAttribute('height')) / 16 + 'rem'

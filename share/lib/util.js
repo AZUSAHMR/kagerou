@@ -163,9 +163,7 @@ const isYou = function isYou(name, list) {
   return (name === 'YOU' || Array.isArray(list) && list.indexOf(name) !== -1)
 }
 
-document.addEventListener('DOMContentLoaded', function(e) {
-  $map('.version', _ => _.textContent = VERSION)
-})
+const sanitize = _ => _.toLowerCase().replace(/[^a-zA-Z0-9]/g, '-')
 
 class EventEmitter {
   /* Copyright (c) 2011 Jerome Etienne, http://jetienne.com - MIT License */

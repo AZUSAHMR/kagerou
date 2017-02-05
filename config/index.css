@@ -27,6 +27,8 @@ body {
   -webkit-user-select: none;
   overflow: hidden;
   cursor: default;
+
+  line-height: 1.25rem;
 }
 
 h1, h2, h3 {
@@ -68,6 +70,7 @@ input[type=text], select {
   text-align: right;
   background: none;
   border-bottom: 0.1rem solid #006064;
+  border-radius: 0;
   padding: 0.25rem;
 
   transition: 100ms border-bottom-color ease;

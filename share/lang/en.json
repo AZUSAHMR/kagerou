@@ -215,7 +215,7 @@
       "hitfail": ["HitF", "Hitfail"],
       "critical": ["Crit", "Critical%"],
       "max": ["MaxD", "Maxhit (w/o skillname)"],
-      "maxhit": ["Max Damage", "Maxhit (w/ skillname)"],
+      "maxhit": ["MaxDamage", "Maxhit (w/ skillname)"],
       "last10": ["10s", "DPS for Last 10s"],
       "last30": ["30s", "DPS for Last 30s"],
       "last60": ["1m", "DPS for Last 1min"],
@@ -238,13 +238,13 @@
       "critical": ["HCrit", "Critical%"],
       "cure": ["Cure", "Cures"],
       "max": ["MaxH", "Maxhit (w/o skillname)"],
-      "maxhit": ["Max Heal", "Maxhit (w/ skillname)"]
+      "maxhit": ["MaxHeal", "Maxhit (w/ skillname)"]
     },
     "etc": {
       "_": "Etc",
       "powerdrain": ["PDrn", "Powerdrain"],
       "powerheal": ["PHeal", "Powerheal"],
-      "death": ["Dead", "Deathcount"]
+      "death": ["Deaths", "Deathcount"]
     }
   },
   "zone": {

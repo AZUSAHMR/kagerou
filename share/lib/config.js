@@ -258,7 +258,7 @@ const COLUMN_INDEX = {
     per_second: {
       v: 'encdps',
       f: (_, conf) => {
-        _ = parseFloat(_ && _.replace(',', '.'))
+        _ = parseFloat(_)
         return isNaN(_)? '0' : _.toFixed(conf.format.significant_digit.dps)
       }
     },
@@ -313,7 +313,7 @@ const COLUMN_INDEX = {
     per_second: {
       v: 'enchps',
       f: (_, conf) => {
-        _ = parseFloat(_ && _.replace(',', '.'))
+        _ = parseFloat(_)
         return isNaN(_)? '0' : _.toFixed(conf.format.significant_digit.hps)
       }
     },
